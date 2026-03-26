@@ -1,0 +1,37 @@
+pas-fdtd-simulator/
+│
+├── README.md                 # Project documentation
+├── LICENSE                   # MIT or GPL license
+├── requirements.txt          # Python dependencies
+├── setup.py                  # Installation setup
+├── .gitignore               # Git ignore file
+│
+├── src/                      # Source code
+│   ├── __init__.py
+│   ├── fdtd_simulation.py    # Main simulation code
+│   ├── geometry.py           # Geometry classes
+│   ├── physics.py            # Physics parameters
+│   └── visualization.py      # Plotting utilities
+│
+├── examples/                 # Example scripts
+│   ├── __init__.py
+│   ├── demo.py              # Basic demo
+│   ├── parametric_study.py   # Parameter sweep example
+│   └── q_factor_analysis.py  # Q-factor analysis
+│
+├── tests/                    # Unit tests
+│   ├── __init__.py
+│   ├── test_geometry.py
+│   ├── test_physics.py
+│   └── test_simulation.py
+│
+├── docs/                     # Documentation
+│   ├── API.md
+│   ├── theory.md
+│   └── images/               # Figures for README
+│
+├── notebooks/                # Jupyter notebooks
+│   └── analysis.ipynb
+│
+└── results/                  # Simulation results (gitignored)
+    └── .gitkeep

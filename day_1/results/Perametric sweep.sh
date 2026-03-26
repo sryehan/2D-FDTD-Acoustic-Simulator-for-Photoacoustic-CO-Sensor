@@ -1,0 +1,1 @@
+python examples/parametric_study.py --amp 10 50 100 --freq 1000 1500 2000
